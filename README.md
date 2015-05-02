@@ -8,10 +8,10 @@ It is comprised only of static assets.
 
 ### build
 
-You may want to host your own. To do so:
+You may want to host your own. To build the static assets:
 ```
 npm install
-npm start # builds the js bundle
+npm start
 ```
 
 Now host `index.html` and `bundle.js` somewhere.
