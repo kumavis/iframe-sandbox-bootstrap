@@ -1,0 +1,22 @@
+{
+  "name": "iframe-sandbox-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browserify node_modules/iframe-sandbox/preamble.js -o ./bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumavis/iframe-sandbox-bootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kumavis/iframe-sandbox-bootstrap/issues"
+  },
+  "homepage": "https://github.com/kumavis/iframe-sandbox-bootstrap#readme",
+  "dependencies": {
+    "iframe-sandbox": "^3.1.1"
+  }
+}
